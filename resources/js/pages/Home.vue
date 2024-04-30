@@ -1,10 +1,11 @@
 <template>
     <div>
-        Homepage
+        Welcome to Homepage
     </div>
 </template>
 
 <script>
+
 export default {
     name: "Home",
     data() {

@@ -9,6 +9,7 @@ import Dashboard from '../pages/Dashboard';
 import Books from '../components/Books';
 import AddBook from '../components/AddBook';
 import EditBook from '../components/EditBook';
+import PageNotFound from '../components/PageNotFound';
 
 export const routes = [
     {
@@ -50,6 +51,11 @@ export const routes = [
         name: 'editbook',
         path: '/books/edit/:id',
         component: EditBook
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: PageNotFound
     },
 ];
 

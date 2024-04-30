@@ -1,10 +1,11 @@
 <template>
     <div>
-        About us
+        Welcome to About us
     </div>
 </template>
 
 <script>
+
 export default {
     name: "About"
 }
