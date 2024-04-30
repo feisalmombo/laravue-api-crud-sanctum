@@ -21775,7 +21775,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     logout: function logout(e) {
       var _this = this;
-      console.log('saanctum');
+      console.log('ss');
       e.preventDefault();
       this.$axios.get('/sanctum/csrf-cookie').then(function (response) {
         _this.$axios.post('/api/logout').then(function (response) {
