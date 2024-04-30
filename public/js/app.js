@@ -22335,7 +22335,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           id: book.id
         }
       },
-      "class": "btn btn-primary"
+      "class": "btn btn-primary mx-2"
     }, {
       "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
         return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Edit ")];
