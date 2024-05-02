@@ -23,6 +23,10 @@
                     <div class="btn-group" role="group">
                         <router-link :to="{name: 'editbook', params: { id: book.id }}" class="btn btn-primary mx-2">Edit
                         </router-link>
+
+                        <router-link :to="{name: 'showbook', params: { id: book.id }}" class="btn btn-success mx-2">Show
+                        </router-link>
+
                         <button class="btn btn-danger" @click="deleteBook(book.id)">Delete</button>
                     </div>
                 </td>

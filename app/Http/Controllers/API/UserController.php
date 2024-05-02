@@ -82,7 +82,7 @@ class UserController extends Controller
     /**
      * Logout
      */
-    public function logout()
+    public function logout(Request $request)
     {
         try {
             Session::flush();
